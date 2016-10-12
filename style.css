@@ -15,8 +15,6 @@ header {
 
 .otherprojects-item {
     display: inline;
-    width: 80%;
-    height: 175px;
     min-width: 150px;
     max-width: 300px;
     line-height: 15px;
@@ -35,6 +33,7 @@ main {
 
 img {
     width: 135px;
+    height: 135px;
     padding: 10px;
 }
 
