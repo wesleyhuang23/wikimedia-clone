@@ -1,80 +1,84 @@
 body {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 header {
-  width: auto;
-  /*border: 5px solid;*/
-  margin-left: 15%;
-  margin-right: 15%;
-  text-align: justify;
-  vertical-align: top;
-  padding: .5em 1em;
+    width: auto;
+    /*border: 5px solid;*/
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+    vertical-align: top;
+    padding: .5em 1em;
+    height: auto;
 }
 
 .otherprojects-item {
-  display: inline;
-  width: 80%;
-  height: 175px;
-  min-width: 150px;
-  max-width: 300px;
-  line-height: 15px;
-  padding: 15px;
+    display: inline;
+    width: 80%;
+    height: 175px;
+    min-width: 150px;
+    max-width: 300px;
+    line-height: 15px;
+    padding: 15px;
 }
 
+
 main {
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: center;
-  height: auto;
-  width: auto;
-  padding: .5em 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    height: auto;
+    width: auto;
+    padding: .5em 1em;
 }
 
 img {
-  width: 135px;
-  padding: 10px;
+    width: 135px;
+    padding: 10px;
+}
+
+.icon {
+  text-align: center;
+  display: inline-block;
 }
 
 p {
-  font-size: 20px;
-  font-family: helvetica;
+    font-size: 20px;
+    font-family: helvetica;
 }
 
 #greeting {
-  text-align: right;
+    text-align: right;
 }
 
 footer {
-  text-align: center;
+    text-align: center;
 }
 
 #footer {
-  font-size: 12px;
+    font-size: 13px;
 }
+
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 li {
-  display: inline;
-  margin: 2%;
-  font-family: helvetica;
-  font-size: 12px;
+    display: inline;
+    margin: 2%;
+    font-family: helvetica;
+    font-size: 13px;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
-a:hover .otherprojects-item {
-  text-decoration: none;
-}
-
-a:visited{
-  color:blue;
+a:visited {
+    color: blue;
 }
