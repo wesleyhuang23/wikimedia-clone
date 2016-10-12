@@ -9,6 +9,7 @@ header {
   margin-right: 15%;
   text-align: justify;
   vertical-align: top;
+  padding: .5em 1em;
 }
 
 .otherprojects-item {
@@ -17,13 +18,17 @@ header {
   height: 175px;
   min-width: 150px;
   max-width: 300px;
-  line-height: 175px;
+  line-height: 15px;
+  padding: 15px;
 }
 
 main {
   margin-left: 10%;
   margin-right: 10%;
   text-align: center;
+  height: auto;
+  width: auto;
+  padding: .5em 1em;
 }
 
 img {
@@ -64,4 +69,12 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+a:hover .otherprojects-item {
+  text-decoration: none;
+}
+
+a:visited{
+  color:blue;
 }
